@@ -1,0 +1,625 @@
+{
+  "intents": {
+    
+    
+    "decline": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "no",
+              "entity": "sayingNo",
+              "slot_name": "sayingNo"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "not",
+              "entity": "sayingNo",
+              "slot_name": "sayingNo"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "interested"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "no",
+              "entity": "sayingNo",
+              "slot_name": "sayingNo"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "thanks"
+            }
+          ]
+        },
+
+
+        {
+          "data": [
+            {
+              "text": "no",
+              "entity": "sayingNo",
+              "slot_name": "sayingNo"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "I wouldn't like that"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "I am"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "not",
+              "entity": "sayingNo",
+              "slot_name": "sayingNo"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "interested"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "confirm": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "yes",
+              "entity": "sayingYes",
+              "slot_name": "sayingYes"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "yes",
+              "entity": "sayingYes",
+              "slot_name": "sayingYes"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "thank you"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "yes",
+              "entity": "sayingYes",
+              "slot_name": "sayingYes"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "sounds good"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "greeting": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "hey",
+              "entity": "sayHello",
+              "slot_name": "sayHello"
+            }
+          ]
+        },
+
+        {
+          "data": [
+            {
+              "text": "hey",
+              "entity": "sayHello",
+              "slot_name": "sayHello"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "whats up",
+              "entity": "askHowAreYou",
+              "slot_name": "askHowAreYou"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "introduction": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "hello",
+              "entity": "sayHello",
+              "slot_name": "sayHello"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "i am",
+              "entity": "iAm",
+              "slot_name": "iAm"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "john",
+              "entity": "name",
+              "slot_name": "name"
+            }
+          ]
+        },
+
+        {
+
+
+          "data": [
+            {
+              "text": "i am",
+              "entity": "iAm",
+              "slot_name": "iAm"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "practice": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "i would like to",
+              "entity": "do",
+              "slot_name": "do"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "practice",
+              "entity": "doPractice",
+              "slot_name": "doPractice"
+            }
+          ]
+        },
+
+        {
+
+          "data": [
+            {
+              "text": "practice",
+              "entity": "doPractice",
+              "slot_name": "doPractice"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "clarification": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "could you",
+              "entity": "couldYou",
+              "slot_name": "couldYou"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "explain",
+              "entity": "explain",
+              "slot_name": "explain"
+            }
+          ]
+        },
+
+        {
+
+          "data": [
+            {
+              "text": "i don't"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "understand",
+              "entity": "understand",
+              "slot_name": "understand"
+            }
+
+          ]
+        },
+
+        {
+
+          "data": [
+            {
+              "text": "what dp you"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "mean",
+              "entity": "mean",
+              "slot_name": "mean"
+            }
+
+          ]
+        }
+      ]
+    },
+
+
+    "feedback": {
+      "utterances": [
+        {
+
+
+          "data": [
+            {
+              "text": "i would like to",
+              "entity": "do",
+              "slot_name": "do"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "get",
+              "entity": "get",
+              "slot_name": "get"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "feedback",
+              "entity": "feedback",
+              "slot_name": "feedback"
+            }
+          ]
+        },
+
+        {
+
+          "data": [
+            {
+              "text": "give me"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "feedback",
+              "entity": "feedback",
+              "slot_name": "feedback"
+            }
+          ]
+        },
+
+        {
+
+          "data": [
+            {
+              "text": "how did I do",
+              "entity": "didDo",
+              "slot_name": "didDo"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+  
+
+
+
+
+  "entities": {
+
+
+    "sayingNo": {
+      "data": [
+        {
+          "value": "no",
+          "synonyms": [
+            "nope", "nah", "nay", "never", "negative", "absolutely not", 
+            "by no means", "never", "no way", "not at all", "not by any means",
+            "would not", "wouldn't"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "sayingYes": {
+      "data": [
+        {
+          "value": "yes",
+          "synonyms": [
+            "yea", "yeah", "yep", "ok", "okay", "sure", "agree",
+            "true", "fine", "affirmative", "amen",
+             "fine", "good", "all right", "aye", 
+             "beyond a doubt", "by all means", "certainly", "definitely",
+             "even so", "exactly", "gladly", "good enough", "granted", 
+             "of course", "sure thing", "surely"
+             , "very well", "I dont mind", "I would love to", "I'd love love to"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "sayHello": {
+      "data": [
+        {
+          "value": "hi",
+          "synonyms": [
+            "hello", "hey", "helloo", "hellooo", "good morning", 
+            "morning", "good day", "good afternoon", "good evening", "greetings", 
+            "greeting", "good to see you", "its good seeing you"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+    "askHowAreYou": {
+      "data": [
+        {
+          "value": "how are you",
+          "synonyms": [
+            "how're you", "how are you doing", "how ya doin'", "how ya doin", 
+            "how is everything", "how is everything going", "how's everything going", 
+            "how is you", "how's you", "how are things", "how're things", "how is it going", 
+            "how's it going", "how's it goin'", "how's it goin", "how is life been treating you", 
+            "how's life been treating you", "how have you been", "how've you been", "what is up", 
+            "what's up", "what is cracking", "what's cracking", "what is good", "what's good", 
+            "what is happening", "what's happening", "what is new", "what's new", "what is neww", 
+            "g’day", "howdy", "what's crack-a-lackin"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+
+    "iAm": {
+      "data": [
+        {
+          "value": "i am",
+          "synonyms": [
+            "my name is", "i'm", "i am called", "i am known as", "i am known as",
+            "the name is", "the name's", "the name is called", "the name's called", 
+            "the name is known as"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "do": {
+      "data": [
+        {
+          "value": "i would like to",
+          "synonyms": [
+            "let's", "let us", "i want to", "i want", "i would like", "i would like to"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+    "doPractice": {
+      "data": [
+        {
+          "value": "practice",
+          "synonyms": [
+            "practice", "practice session", "train", "work"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "couldYou": {
+      "data": [
+        {
+          "value": "could you",
+          "synonyms": [
+            "can you", "would you", "would you mind", "would you please", "would you kindly"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "explain": {
+      "data": [
+        {
+          "value": "explain",
+          "synonyms": [
+            "explain", "clarify", "elaborate", "elucidate", "expound", "explicate", "simplify"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+    "understand": {
+      "data": [
+        {
+          "value": "understand",
+          "synonyms": [
+            "understand", "get it", "comprehend it", "comprehend", "comprehend it"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+    "mean": {
+      "data": [
+        {
+          "value": "mean",
+          "synonyms": [
+            "mean", "mean by that"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+    "get": {
+      "data": [
+        {
+          "value": "get",
+          "synonyms": [
+            "get", "get it", "recieve"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "feedback": {
+      "data": [
+        {
+          "value": "feedback",
+          "synonyms": [
+            "feedback", "criticism", "critique", "review", "comment", "opinion", "suggestion", "suggestions",
+            "progress", "progress report", "report", "report card"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "didDo": {
+      "data": [
+        {
+          "value": "how did I do",
+          "synonyms": [
+            "how did I do", "did I do well", "did I do good"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    },
+
+
+    "name": {
+      "data": [],
+      "use_synonyms": false,
+      "automatically_extensible": false,
+      "matching_strictness": 1.0
+    }
+
+
+  },
+  "language": "en"
+}
